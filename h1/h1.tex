@@ -1,0 +1,71 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{indentfirst}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\title{MATH214 Homework 1}
+\author{Tianzong Cheng}
+\date{February 2023}
+
+\begin{document}
+
+\maketitle
+
+\section{Exercise 1}
+
+\subsection{Question 1}
+
+Let $(S,*)$ and $(S',*')$ and $(S'',*'')$ be three algebraic structures. Suppose $f:S \rightarrow S'$, $g:S' \rightarrow S''$ and $h = f \circ g:S \rightarrow S''$.
+
+\begin{equation*}
+    \text{Then we have}\qquad
+    \left\{\begin{aligned}
+         & f(x*y) = f(x) *' f(y)                   \\
+         & g(f(x)*'f(y))=g\circ f(x)*''g\circ f(y)
+    \end{aligned}
+    \right.
+\end{equation*}
+
+Thus we have $g\circ f(x*y) = g\circ f(x) *'' g\circ f(y)$, namely $h(x*y) = h(x)*''h(y)$. So the composition of $f$ and $g$ is a homomorphism.
+
+\subsection{Question 2}
+
+According to the definition of isomorphisim, an isomorphisim is a bijection.
+
+Let $f$ be an isomorphisim from $S$ to $S'$ and $a\in S$, $a'\in S'$. Since $f$ is a bijection, we have $f(a)=a'$ and $f^{-1}(a')=a$. We can easily observe that $f^{-1}$ is also bijective becuase $f$ is the inverse function of $f^{-1}$.
+
+Next we need to show that $f^{-1}$ is a homomorphism. $\forall x',y'\in S'$,
+
+\begin{equation*}
+    \begin{aligned}
+        f^{-1}(x'*'y') & =f^{-1}(f(x)*'f(y))   \\
+                       & =f^{-1}(f(x*y))       \\
+                       & =x*y                  \\
+                       & =f^{-1}(x')*f^{-1}(y)
+    \end{aligned}
+\end{equation*}
+
+\subsection{Question 3}
+
+a) homomorphism
+
+b) endomorphism
+
+c) automorphism
+
+d) automorphism
+
+e) homomorphism
+
+\section{Exercise 2}
+
+Set 3, 4, 6 are vector subspaces meeting the requirments.
+
+\section{Exercise 3}
+
+\subsection{Question 1}
+
+$\forall \alpha \in V$ and $\forall k \in \mathbb{R}$, 
+
+\end{document}
