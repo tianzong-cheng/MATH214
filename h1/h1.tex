@@ -1,8 +1,9 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
-\usepackage{indentfirst}
 \usepackage{amsmath}
 \usepackage{amssymb}
+
+\setlength{\parindent}{0pt}
 
 \title{MATH214 Homework 1}
 \author{Tianzong Cheng}
@@ -66,6 +67,52 @@ Set 3, 4, 6 are vector subspaces meeting the requirments.
 
 \subsection{Question 1}
 
-$\forall \alpha \in V$ and $\forall k \in \mathbb{R}$, 
+$\forall \alpha \in V$ and $\forall k \in \mathbb{R}$, we have $k\cdot \alpha=k\cdot (x,y,z)=(kx,ky,kz)$. It's obvious that $kx-2ky+3kz=k(x-2y+3z)=0$. So $V$ is a subspace of $\mathbb{R}^{3}$.
+
+\subsection{Question 2}
+
+A set is a collection of distinct objects.
+
+A vector space is a mathematical structure that consists of a set of vectors, together with operations of addition and scalar multiplication.
+
+\subsection{Question 3}
+
+Since $B\subset C$, we only need to prove $C\subset B$, namely $\forall c\in C$, $c\in B$.
+
+Since $A+B=A+C$, $\forall a\in A$ and $b\in B$, we have
+
+\begin{equation*}
+\left\{\begin{aligned}
+a+b\in A+C\\
+a+c\in A+B
+\end{aligned}
+\right.
+\end{equation*}
+
+$A$ is a subspace of $V$, so $0\in A$. If $a=0$, then $c\in A+B$. Since $c\in C$, $c\in B$.
+
+That is, $C\subset b$, $B=C$.
+
+\subsection{Question 4}
+
+First, show that $A\cap (B+(A\cap C))\subset (A\cap B)+(A\cap C)$.
+
+$\forall x\in A\cap (B+(A\cap C))$, we have
+
+\begin{equation*}
+\left\{\begin{aligned}
+x&\in A\\
+x&\in (B+(A\cap C))
+\end{aligned}
+\right.
+\end{equation*}
+
+\subsection{Question 5}
+
+I'm afraid this is beyond me.
+
+\section{Exercise 4}
+
+I'm afraid this is beyond me.
 
 \end{document}
