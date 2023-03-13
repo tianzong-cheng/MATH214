@@ -1,7 +1,10 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage{framed}
+
+\setlength{\parindent}{0pt}
 
 \title{MATH214 Notes}
 \author{Tianzong Cheng}
@@ -13,30 +16,93 @@
 
 \section{Review}
 
+\subsection{History}
+
+\subsection{Algebraic structures}
+
+\begin{framed}
+
+    \textbf{Span}
+
+    \begin{framed}
+        \textbf{Notation}\\
+        $span(S)$
+    \end{framed}
+
+    \begin{framed}
+        \textbf{Definition}\\
+        Let $S$ be a subset of a vector space $V$. The smallest vector subspace containing $S$ is called the vector subspace spanned by $S$.
+    \end{framed}
+
+    \begin{framed}
+        \textbf{Properties}\\
+        Let $n\in \mathbb{N}^{*}$ and $S=\{ s_{1},s_{2},\cdots,s_{n}\}$ a subset of a vector space $V$ with $n$ elements. The subspace spanned by $S$ is the set of linear combinations of the $s_{i}$, $1\leq i\leq n$.
+    \end{framed}
+
+\end{framed}
+
+\subsection{Linear maps}
+
 \section{Finite dimensional vector spaces}
 
 \subsection{Bases}
 
 \begin{framed}
 
-\noindent \textbf{Sum of subspaces}
+    \textbf{Sum of subspaces}
 
-\begin{framed}
-    \noindent \textbf{Notation}\\
-$V_{1}+V_{2}$
+    \begin{framed}
+        \textbf{Notation}\\
+        $V_{1}+V_{2}$
+    \end{framed}
+
+    \begin{framed}
+        \textbf{Definition}\\
+        $V_{1}+V_{2}=\{v_{1}+v_{2},(v1,v2)\in V_{1}\times V_{2}\}$
+        \begin{framed}
+        \textbf{Remark}\\
+        \textit{Sum of subspaces} is sum of values.
+        \end{framed}
+    \end{framed}
+
+    \begin{framed}
+        \textbf{Properties}\\
+        \textit{Sum of subspaces} is the smallest subspace containing both $V_{1}$ and $V_{2}$.
+    \end{framed}
+
 \end{framed}
 
 \begin{framed}
-    \noindent \textbf{Definition}\\
-$\{v_{1}+v_{2},(v1,v2)\in V_{1}\times V_{2}\}$\\
-\textit{Sum of subspaces} is sum of values.
+
+    \textbf{Direct sum of subspaces}
+
+    \begin{framed}
+        \textbf{Notation}\\
+        $V_{1}\oplus V_{2}$
+    \end{framed}
+
+    \begin{framed}
+        \textbf{Definition}\\
+        Let $V_{1}$ and $V_{2}$ be two subspaces of a vector space $V$. Then $V$ is called the direct sum of $V_{1}$ and $V_{2}$, denoted $V_{1} \oplus V_{2}$ if $V = V_{1}+V_{2}$ and $V_{1}\cap V_{2} = \{0\}$.
+    \end{framed}
+
+    \begin{framed}
+        \textbf{Properties}\\
+        For any $v\in V$, $(v_{1},v_{2})\in V_{1}\times V_{2}$ satisfying that $v_{1}+v_{2}=v$ is unique.
+        \begin{framed}
+            \textbf{Proof}\\
+            Proof by contradiction
+        \end{framed}
+        The decomposition of a vector space into a direct sum of subspaces is not unique.
+    \end{framed}
+
 \end{framed}
+
+\section{Questions}
 
 \begin{framed}
-\noindent \textbf{Properties}\\
-\textit{Sum of subspaces} is the smallest subspace containing both $V_{1}$ and $V_{2}$.
-\end{framed}
-
+    What does this mean?\\
+    Any element of $\mathbb{K}^{2}$ can be written as $(x-y)(1,0) + y(1,1)$. So $\mathbb{K}^{2}=span((1,0))+span((1,1))$.
 \end{framed}
 
 \end{document}
