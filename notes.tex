@@ -35,13 +35,19 @@
     \end{framed}
 
     \begin{framed}
-        \textbf{Properties}\\
-        Let $n\in \mathbb{N}^{*}$ and $S=\{ s_{1},s_{2},\cdots,s_{n}\}$ a subset of a vector space $V$ with $n$ elements. The subspace spanned by $S$ is the set of linear combinations of the $s_{i}$, $1\leq i\leq n$.
+        \textbf{Properties}
+        \begin{itemize}
+            \item Let $n\in \mathbb{N}^{*}$ and $S=\{ s_{1},s_{2},\cdots,s_{n}\}$ a subset of a vector space $V$ with $n$ elements. The subspace spanned by $S$ is the set of linear combinations of the $s_{i}$, $1\leq i\leq n$.
+        \end{itemize}
     \end{framed}
 
 \end{framed}
 
+\newpage
+
 \subsection{Linear maps}
+
+\newpage
 
 \section{Finite dimensional vector spaces}
 
@@ -58,19 +64,20 @@
 
     \begin{framed}
         \textbf{Definition}\\
-        $V_{1}+V_{2}=\{v_{1}+v_{2},(v1,v2)\in V_{1}\times V_{2}\}$
-        \begin{framed}
-        \textbf{Remark}\\
-        \textit{Sum of subspaces} is sum of values.
-        \end{framed}
+        $V_{1}+V_{2}=\{v_{1}+v_{2},(v1,v2)\in V_{1}\times V_{2}\}$\\
+        \textbf{Remark} \textit{Sum of subspaces} is sum of values.
     \end{framed}
 
     \begin{framed}
-        \textbf{Properties}\\
-        \textit{Sum of subspaces} is the smallest subspace containing both $V_{1}$ and $V_{2}$.
+        \textbf{Properties}
+        \begin{itemize}
+            \item \textit{Sum of subspaces} is the smallest subspace containing both $V_{1}$ and $V_{2}$.
+        \end{itemize}
     \end{framed}
 
 \end{framed}
+
+\newpage
 
 \begin{framed}
 
@@ -89,19 +96,21 @@
     \begin{framed}
         \textbf{Properties}
         \begin{itemize}
-            \item For any $v\in V$, $(v_{1},v_{2})\in V_{1}\times V_{2}$ satisfying that $v_{1}+v_{2}=v$ is unique. Proof by contradiction is obvious.
+            \item For any $v\in V$, $(v_{1},v_{2})\in V_{1}\times V_{2}$ satisfying that $v_{1}+v_{2}=v$ is unique. \textbf{Proof} by contradiction is obvious.
             \item The decomposition of a vector space into a \textit{direct sum of subspaces} is not unique.
         \end{itemize}
     \end{framed}
 
 \end{framed}
 
+\newpage
+
 \begin{framed}
 
     \textbf{Spanning set}
 
     \begin{framed}
-    \textbf{Definition}\\
+        \textbf{Definition}\\
         Let $V$ be a vector space and $S\subset V$. If any element in $V$ can be written as a linear combination of vectors in $S$, then $S$ is called a \textit{spanning set} for $V$.
     \end{framed}
 
@@ -115,31 +124,33 @@
 
 \end{framed}
 
+\newpage
+
 \begin{framed}
 
     \textbf{Linearly independent}
-    
+
     \begin{framed}
-    \textbf{Definition}\\
-    A subset $\mathcal{I}$ of a vector space $V$ is said to be linearly independent if no vector in $I$ can be expressed as a linear combinations of others.
-    \begin{framed}
-    \textbf{Remark}\\
-    "Others" refers to other vectors in $\mathcal{I}$.
+        \textbf{Definition}\\
+        A subset $\mathcal{I}$ of a vector space $V$ is said to be linearly independent if no vector in $I$ can be expressed as a linear combinations of others.\\
+        \textbf{Remark} \textit{Others} refers to other vectors in $\mathcal{I}$.
     \end{framed}
-    
-    \end{framed}
-    
+
     \begin{framed}
         \textbf{Properties}
         \begin{itemize}
-            \item Let $V$ be a vector space and $\mathcal{I}=\{v_{1},v_{2},\cdot,v_{n}\}\subset V$. Then $\mathcal{I}$ is linearly independent if and only if the unique solution to $\alpha _{1}v_{1}+\alpha _{2}v_{2}+\cdots +\alpha _{n}v_{n}=0$ is $\alpha _{1}=\alpha _{2}=\cdots =\alpha _{n}=0$. Proof by contradiction is still obvious.
+            \item Let $V$ be a vector space and $\mathcal{I}=\{v_{1},v_{2},\cdot,v_{n}\}\subset V$. Then $\mathcal{I}$ is linearly independent if and only if the unique solution to $\alpha _{1}v_{1}+\alpha _{2}v_{2}+\cdots +\alpha _{n}v_{n}=0$ is $\alpha _{1}=\alpha _{2}=\cdots =\alpha _{n}=0$. \textbf{Proof} by contradiction is still obvious.
             \item Any subset of a linearly independent set is linearly independent.
             \item A linearly independent set cannot contain the vector $0$.
             \item A set with two parallel vectors is linearly dependent, however the converse if false.
+            \item Let $\mathcal{I}$ be a linearly independent subset of a vector space $V$, and $v\in V$. Then $\mathcal{I}\cup \{v\}$ is a linearly dependent set if and only if $v$ can be written as a linear combination of elements of $\mathcal{I}$.
+            \item Let $\mathcal{I}$ be a linearly independent set, and $\lambda _{i}$ and $\mu _{i}$, $1\leq i\leq n$, be scalars. If $\sum_{i=1}^{n}\lambda _{i}v_{i}=\sum _{i=1}^{n}\mu _{i}v_{i}$, then for all $1\leq i\leq n$, $\lambda _{i}=\mu _{i}$. \textbf{Proof} is straightforward if you move the equation to the same side.
         \end{itemize}
     \end{framed}
-    
+
 \end{framed}
+
+\newpage
 
 \section{Questions}
 
