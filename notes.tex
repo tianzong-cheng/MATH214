@@ -87,32 +87,58 @@
     \end{framed}
 
     \begin{framed}
-        \textbf{Properties}\\
-        For any $v\in V$, $(v_{1},v_{2})\in V_{1}\times V_{2}$ satisfying that $v_{1}+v_{2}=v$ is unique.
-        \begin{framed}
-            \textbf{Proof}\\
-            Proof by contradiction
-        \end{framed}
-        The decomposition of a vector space into a \textit{direct sum of subspaces} is not unique.
+        \textbf{Properties}
+        \begin{itemize}
+            \item For any $v\in V$, $(v_{1},v_{2})\in V_{1}\times V_{2}$ satisfying that $v_{1}+v_{2}=v$ is unique. Proof by contradiction is obvious.
+            \item The decomposition of a vector space into a \textit{direct sum of subspaces} is not unique.
+        \end{itemize}
     \end{framed}
 
 \end{framed}
 
 \begin{framed}
 
-\textbf{Spanning set}
+    \textbf{Spanning set}
 
-\begin{framed}
-\textbf{Definition}\\
-Let $V$ be a vector space and $S\subset V$. If any element in $V$ can be written as a linear combination of vectors in $S$, then $S$ is called a \textit{spanning set} for $V$.
+    \begin{framed}
+    \textbf{Definition}\\
+        Let $V$ be a vector space and $S\subset V$. If any element in $V$ can be written as a linear combination of vectors in $S$, then $S$ is called a \textit{spanning set} for $V$.
+    \end{framed}
+
+    \begin{framed}
+        \textbf{Properties}
+        \begin{itemize}
+            \item If $S$ is a \textit{spanning set} for $V$, then any superset $S'\supset S$ is also a \textit{spanning set} for $V$.
+            \item Let $S$ be a \textit{spanning set} for $V$. A subset $S'$ of $V$ is a \textit{spanning set} for $V$ if and only if any element of $S$ can be written as a linear combination of elements of $S'$.
+        \end{itemize}
+    \end{framed}
+
 \end{framed}
 
 \begin{framed}
-\textbf{Properties}\\
-If $S$ is a \textit{spanning set} for $V$, then any superset $S'\supset S$ is also a \textit{spanning set} for $V$.\\
-Let $S$ be a \textit{spanning set} for $V$. A subset $S'$ of $V$ is a \textit{spanning set} for $V$ if and only if any element of $S$ can be written as a linear combination of elements of $S'$.
-\end{framed}
 
+    \textbf{Linearly independent}
+    
+    \begin{framed}
+    \textbf{Definition}\\
+    A subset $\mathcal{I}$ of a vector space $V$ is said to be linearly independent if no vector in $I$ can be expressed as a linear combinations of others.
+    \begin{framed}
+    \textbf{Remark}\\
+    "Others" refers to other vectors in $\mathcal{I}$.
+    \end{framed}
+    
+    \end{framed}
+    
+    \begin{framed}
+        \textbf{Properties}
+        \begin{itemize}
+            \item Let $V$ be a vector space and $\mathcal{I}=\{v_{1},v_{2},\cdot,v_{n}\}\subset V$. Then $\mathcal{I}$ is linearly independent if and only if the unique solution to $\alpha _{1}v_{1}+\alpha _{2}v_{2}+\cdots +\alpha _{n}v_{n}=0$ is $\alpha _{1}=\alpha _{2}=\cdots =\alpha _{n}=0$. Proof by contradiction is still obvious.
+            \item Any subset of a linearly independent set is linearly independent.
+            \item A linearly independent set cannot contain the vector $0$.
+            \item A set with two parallel vectors is linearly dependent, however the converse if false.
+        \end{itemize}
+    \end{framed}
+    
 \end{framed}
 
 \section{Questions}
